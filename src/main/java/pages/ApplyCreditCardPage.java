@@ -52,5 +52,8 @@ public class ApplyCreditCardPage {
 		return result;
 	}
 
+	public String getDecllinedMsg() {
+	return	driver.findElement(By.xpath("//h1[contains(text(),\"Unfortunately you're not eligible for any cards\")]")).getText();	
+	}
 
 }

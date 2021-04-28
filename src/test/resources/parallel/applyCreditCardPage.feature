@@ -17,3 +17,16 @@ Examples:
  |Boris  | boris@gmail.com   |london   |C1|
  |Angela |angelia@gmail.com  |Reading  |C1C2|
  |Theresa|theresa@gmail.com  |Brimigham|C2|
+ 
+ 
+ Scenario Outline: Verify user should not be able to apply for credit card if details are incorrect
+Given user is on apply credit card page
+When user enters name "<name>"
+And user enters email "<email>"
+And user enters address "<address>"
+And user clicks on submit button
+Then user should be displayed declined message
+Examples:
+ |name    |email             |address  |
+ |Amit  | boris@gmail.com   |london   |
+ 

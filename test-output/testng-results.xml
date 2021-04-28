@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8626" started-at="2021-04-28T16:48:29Z" finished-at="2021-04-28T16:48:38Z">
+  <suite name="Default suite" duration-ms="14004" started-at="2021-04-28T22:54:22Z" finished-at="2021-04-28T22:54:36Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="8626" started-at="2021-04-28T16:48:29Z" finished-at="2021-04-28T16:48:38Z">
+    <test name="Default test" duration-ms="14004" started-at="2021-04-28T22:54:22Z" finished-at="2021-04-28T22:54:36Z">
       <class name="parallel.MyRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.MyRunner@77167fb7]" name="setUpClass" is-config="true" duration-ms="272" started-at="2021-04-28T16:48:29Z" finished-at="2021-04-28T16:48:29Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.MyRunner@77167fb7]" name="setUpClass" is-config="true" duration-ms="397" started-at="2021-04-28T22:54:22Z" finished-at="2021-04-28T22:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="8327" started-at="2021-04-28T16:48:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T16:48:38Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="13529" started-at="2021-04-28T22:54:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T22:54:36Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="7160" started-at="2021-04-28T16:48:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T16:48:37Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="13220" started-at="2021-04-28T22:54:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T22:54:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply for credit card"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Apply Credit Card page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="11059" started-at="2021-04-28T22:54:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T22:54:33Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="8014" started-at="2021-04-28T16:48:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T16:48:37Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="13565" started-at="2021-04-28T22:54:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T22:54:36Z">
           <params>
             <param index="0">
               <value>
@@ -62,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="8262" started-at="2021-04-28T16:48:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T16:48:38Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.MyRunner@77167fb7]" name="runScenario" duration-ms="13386" started-at="2021-04-28T22:54:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-28T22:54:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Apply for credit card"]]>
+                <![CDATA["Verify user should not be able to apply for credit card if details are incorrect"]]>
               </value>
             </param>
             <param index="1">
@@ -78,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.MyRunner@77167fb7]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2021-04-28T16:48:38Z" finished-at="2021-04-28T16:48:38Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.MyRunner@77167fb7]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2021-04-28T22:54:36Z" finished-at="2021-04-28T22:54:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

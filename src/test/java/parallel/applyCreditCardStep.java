@@ -59,6 +59,15 @@ public class applyCreditCardStep {
 		assertTrue("no card available for user",cards.equals(card));
 
 			}
+	
+	
+	@Then("user should be displayed declined message")
+	public void user_should_be_displayed_declined_message() {
+		String msg= loginStepPage.getDecllinedMsg();
+		
+		assertTrue("Unfortunately you're not eligible for any cards".equals(msg));
+
+			}
 
 
 }
